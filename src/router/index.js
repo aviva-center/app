@@ -77,6 +77,30 @@ const routes = [
     name: "error",
     component: () => import("@/views/ErrorView.vue"),
   },
+  {
+    meta: {
+      title: "Membros",
+    },
+    path: "/members",
+    name: "members",
+    component: () => import("@/views/MembersView.vue"),
+  },
+  {
+    meta: {
+      title: "Novo Cadastro",
+    },
+    path: "/members/new",
+    name: "members-new",
+    component: () => import("@/views/MemberView.vue"),
+  },
+  {
+    meta: {
+      title: "Visualizar Cadastro",
+    },
+    path: "/members/:id",
+    name: "members-view",
+    component: () => import("@/views/MemberView.vue"),
+  },
 ];
 
 const router = createRouter({

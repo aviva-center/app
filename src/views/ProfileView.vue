@@ -46,7 +46,7 @@ const submitPass = () => {
   <LayoutAuthenticated>
     <SectionMain>
       <SectionTitleLineWithButton :icon="mdiAccount" title="Profile" main>
-        <BaseButton
+        <!-- <BaseButton
           href="https://github.com/justboil/admin-one-vue-tailwind"
           target="_blank"
           :icon="mdiGithub"
@@ -54,7 +54,7 @@ const submitPass = () => {
           color="contrast"
           rounded-full
           small
-        />
+        /> -->
       </SectionTitleLineWithButton>
 
       <UserCard class="mb-6" />

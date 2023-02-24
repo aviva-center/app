@@ -11,13 +11,13 @@ import { gradientBgPinkRed } from "@/colors";
       Like the project? Please star on <b>GitHub</b> ;-)
     </h1>
     <div>
-      <BaseButton
+      <!-- <BaseButton
         href="https://github.com/justboil/admin-one-vue-tailwind"
         :icon="mdiGithub"
         label="GitHub"
         target="_blank"
         rounded-full
-      />
+      /> -->
     </div>
   </SectionBanner>
 </template>
