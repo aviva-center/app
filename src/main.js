@@ -37,11 +37,13 @@ if (
 }
 
 /* Default title tag */
-const defaultDocumentTitle = "Admin One Vue 3 Tailwind";
+const defaultDocumentTitle = "Aviva Center";
 
 /* Set document title from route meta */
 router.afterEach((to) => {
   document.title = to.meta?.title
-    ? `${to.meta.title} — ${defaultDocumentTitle}`
+    // ? `${to.meta.title} — ${defaultDocumentTitle}`
+    // : defaultDocumentTitle;
+    ? `${to.meta.title} `
     : defaultDocumentTitle;
 });

@@ -1,6 +1,6 @@
 <script setup>
 import { ref, onMounted } from "vue";
-import { mdiAccountMultiple, mdiChartTimelineVariant } from "@mdi/js";
+import { mdiAccountMultiple, mdiChartTimelineVariant, mdiLibrary, mdiGroup } from "@mdi/js";
 import * as chartConfig from "@/components/Charts/chart.config.js";
 import SectionMain from "@/components/SectionMain.vue";
 import CardBoxWidget from "@/components/CardBoxWidget.vue";
@@ -46,9 +46,15 @@ onMounted(() => {
         />
         <CardBoxWidget
           color="text-blue-500"
-          :icon="mdiAccountMultiple"
+          :icon="mdiGroup"
           :number="10"
           label="Ministérios"
+        />
+        <CardBoxWidget
+          color="text-blue-500"
+          :icon="mdiLibrary"
+          :number="10"
+          label="Estudos Bíblicos"
         />
       </div>
     </SectionMain>
