@@ -147,7 +147,7 @@ const checked = (isChecked, client) => {
               color="info"
               :icon="mdiEye"
               small
-              :to="`/members/${client.id}`"
+              :to="`/membro/${client.id}`"
             />
 
             <BaseButton

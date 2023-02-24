@@ -81,25 +81,57 @@ const routes = [
     meta: {
       title: "Membros",
     },
-    path: "/members",
-    name: "members",
-    component: () => import("@/views/MembersView.vue"),
+    path: "/membro",
+    name: "membro-listar",
+    component: () => import("@/views/MembroIndexView.vue"),
   },
   {
     meta: {
       title: "Novo Cadastro",
     },
-    path: "/members/new",
-    name: "members-new",
-    component: () => import("@/views/MemberView.vue"),
+    path: "/membro/new",
+    name: "membro-visualizar",
+    component: () => import("@/views/MembroView.vue"),
   },
   {
     meta: {
       title: "Visualizar Cadastro",
     },
-    path: "/members/:id",
-    name: "members-view",
-    component: () => import("@/views/MemberView.vue"),
+    path: "/membro/:id",
+    name: "membro-cadastrar",
+    component: () => import("@/views/MembroView.vue"),
+  },
+  {
+    meta: {
+      title: "Estudos",
+    },
+    path: "/estudo",
+    name: "estudo-listar",
+    component: () => import("@/views/EstudoIndexView.vue"),
+  },
+  {
+    meta: {
+      title: "Ministérios",
+    },
+    path: "/ministerio",
+    name: "ministerio-listar",
+    component: () => import("@/views/MinisterioIndexView.vue"),
+  },
+  {
+    meta: {
+      title: "Material de Apoio",
+    },
+    path: "/material-apoio",
+    name: "material-apoio-listar",
+    component: () => import("@/views/MaterialApoioIndexView.vue"),
+  },
+  {
+    meta: {
+      title: "Agenda",
+    },
+    path: "/agenda",
+    name: "agenda-listar",
+    component: () => import("@/views/AgendaIndexView.vue"),
   },
 ];
 

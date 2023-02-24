@@ -11,7 +11,12 @@ import {
   mdiResponsive,
   mdiPalette,
   mdiReact,
-  mdiHuman
+  mdiHuman,
+  mdiBook,
+  mdiCalendar,
+  mdiGroup,
+  mdiLibrary,
+  mdiFileDocument
 } from "@mdi/js";
 
 export default [
@@ -21,7 +26,7 @@ export default [
     label: "Dashboard",
   },
   {
-    to: "/members",
+    to: "/membro",
     label: "Membros",
     icon: mdiHuman,
   },
@@ -31,52 +36,89 @@ export default [
   //   icon: mdiTable,
   // },
   {
-    to: "/forms",
-    label: "Forms",
-    icon: mdiSquareEditOutline,
+    to: "/estudo",
+    label: "Estudos",
+    icon: mdiLibrary,
   },
   {
-    to: "/ui",
-    label: "UI",
-    icon: mdiTelevisionGuide,
+    to: "/ministerio",
+    label: "Ministérios",
+    icon: mdiGroup,
   },
   {
-    to: "/responsive",
-    label: "Responsive",
-    icon: mdiResponsive,
+    to: "/material-apoio",
+    label: "Material",
+    icon: mdiBook,
   },
   {
-    to: "/",
-    label: "Styles",
-    icon: mdiPalette,
+    to: "/agenda",
+    label: "Agenda",
+    icon: mdiCalendar,
   },
   {
-    to: "/profile",
-    label: "Profile",
-    icon: mdiAccountCircle,
+    label: "Relatórios",
+    icon: mdiFileDocument,
+    menu: [
+      {
+        label: "Famílias",
+      },
+      {
+        label: "Financeiro",
+      },
+    ],
   },
   {
     to: "/login",
     label: "Login",
     icon: mdiLock,
   },
-  {
-    to: "/error",
-    label: "Error",
-    icon: mdiAlertCircle,
-  },
-  {
-    label: "Dropdown",
-    icon: mdiViewList,
-    menu: [
-      {
-        label: "Item One",
-      },
-      {
-        label: "Item Two",
-      },
-    ],
-  },
+  // {
+  //   to: "/tables",
+  //   label: "Tables",
+  //   icon: mdiTable,
+  // },
+  // {
+  //   to: "/forms",
+  //   label: "Forms",
+  //   icon: mdiSquareEditOutline,
+  // },
+  // {
+  //   to: "/ui",
+  //   label: "UI",
+  //   icon: mdiTelevisionGuide,
+  // },
+  // {
+  //   to: "/responsive",
+  //   label: "Responsive",
+  //   icon: mdiResponsive,
+  // },
+  // {
+  //   to: "/",
+  //   label: "Styles",
+  //   icon: mdiPalette,
+  // },
+  // {
+  //   to: "/profile",
+  //   label: "Profile",
+  //   icon: mdiAccountCircle,
+  // },
+  // {
+  //   to: "/error",
+  //   label: "Error",
+  //   icon: mdiAlertCircle,
+  // },
+  // {
+  //   label: "Dropdown",
+  //   icon: mdiViewList,
+  //   menu: [
+  //     {
+  //       label: "Item One",
+  //     },
+  //     {
+  //       label: "Item Two",
+  //     },
+  //   ],
+  // },
   // {
   //   href: "https://github.com/justboil/admin-one-vue-tailwind",
   //   label: "GitHub",
