@@ -21,7 +21,7 @@ import {
 
 export default [
   {
-    to: "/dashboard",
+    to: "/",
     icon: mdiMonitor,
     label: "Dashboard",
   },
