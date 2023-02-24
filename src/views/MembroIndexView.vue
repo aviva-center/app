@@ -3,7 +3,7 @@ import {
   // mdiMonitorCellphone,
   // mdiTableOff,
   mdiHuman,
-  mdiPlus
+  mdiPlus,
 } from "@mdi/js";
 import SectionMain from "@/components/SectionMain.vue";
 // import NotificationBar from "@/components/NotificationBar.vue";

@@ -3,7 +3,7 @@ import {
   // mdiMonitorCellphone,
   // mdiTableOff,
   mdiHuman,
-  mdiPlus
+  mdiPlus,
 } from "@mdi/js";
 import SectionMain from "@/components/SectionMain.vue";
 // import NotificationBar from "@/components/NotificationBar.vue";
@@ -18,7 +18,11 @@ import CardBoxComponentEmpty from "@/components/CardBoxComponentEmpty.vue";
 <template>
   <LayoutAuthenticated>
     <SectionMain>
-      <SectionTitleLineWithButton :icon="mdiHuman" title="Material de Apoio" main>
+      <SectionTitleLineWithButton
+        :icon="mdiHuman"
+        title="Material de Apoio"
+        main
+      >
         <BaseButton
           :icon="mdiPlus"
           label="Novo Material"

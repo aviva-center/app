@@ -16,7 +16,7 @@ import {
   mdiCalendar,
   mdiGroup,
   mdiLibrary,
-  mdiFileDocument
+  mdiFileDocument,
 } from "@mdi/js";
 
 export default [

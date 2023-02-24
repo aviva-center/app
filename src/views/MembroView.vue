@@ -60,16 +60,32 @@ const formStatusSubmit = () => {
       <SectionTitleLineWithButton :icon="mdiBallotOutline" title="Membro" main>
       </SectionTitleLineWithButton>
       <CardBox form @submit.prevent="submit">
-
-
         <FormField label="Dados Pessoais">
-          <FormControl v-model="form.name" :icon="mdiAccount" placeholder="Informe o nome do membro" />
-          <FormControl v-model="form.birthday" type="date" placeholder="Informe a data de nascimento do membro" />
+          <FormControl
+            v-model="form.name"
+            :icon="mdiAccount"
+            placeholder="Informe o nome do membro"
+          />
+          <FormControl
+            v-model="form.birthday"
+            type="date"
+            placeholder="Informe a data de nascimento do membro"
+          />
         </FormField>
 
         <FormField label="Contato">
-          <FormControl v-model="form.cellphone" type="tel" :icon="mdiPhone" placeholder="Informe o celular do membro" />
-          <FormControl v-model="form.email" type="email" :icon="mdiMail" placeholder="Informe o e-mail do membro" />
+          <FormControl
+            v-model="form.cellphone"
+            type="tel"
+            :icon="mdiPhone"
+            placeholder="Informe o celular do membro"
+          />
+          <FormControl
+            v-model="form.email"
+            type="email"
+            :icon="mdiMail"
+            placeholder="Informe o e-mail do membro"
+          />
         </FormField>
 
         <template #footer>

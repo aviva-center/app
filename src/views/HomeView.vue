@@ -1,9 +1,6 @@
 <script setup>
 import { ref, onMounted } from "vue";
-import {
-  mdiAccountMultiple,
-  mdiChartTimelineVariant,
-} from "@mdi/js";
+import { mdiAccountMultiple, mdiChartTimelineVariant } from "@mdi/js";
 import * as chartConfig from "@/components/Charts/chart.config.js";
 import SectionMain from "@/components/SectionMain.vue";
 import CardBoxWidget from "@/components/CardBoxWidget.vue";
@@ -19,8 +16,6 @@ const fillChartData = () => {
 onMounted(() => {
   fillChartData();
 });
-
-
 </script>
 
 <template>
@@ -56,7 +51,6 @@ onMounted(() => {
           label="Ministérios"
         />
       </div>
-
     </SectionMain>
   </LayoutAuthenticated>
 </template>

@@ -24,7 +24,6 @@ mainStore.fetch("clients");
 mainStore.fetch("history");
 mainStore.fetch("members");
 
-
 /* App style */
 styleStore.setStyle(localStorage[styleKey] ?? "basic");
 
